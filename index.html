@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-fr="Portfolio Développeur" data-en="Developer Portfolio">Portfolio Développeur</title>
+
+  <!-- Google Font calligraphique pour le nom -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<video id="bg" autoplay loop muted>
+<source src="bg.mp4" type="video/mp4">
+</video>
+
+  <!-- Nav -->
+  <nav>
+    <ul>
+      <li><a href="#presentation" data-fr="Présentation">Me</a></li>
+      <li><a href="#projets" data-fr="Mes projets sélectionnés">Mes projets</a></li>
+      <li><a href="#skills-formation" data-fr="Compétences & Formation">Mes Compétences</a></li>
+      <li><a href="#contact" data-fr="Me contacter">Me contacter</a></li>
+    </ul>
+  </nav>
+
+  <!-- Présentation & YouTube -->
+  <section id="presentation" class="container intro-section">
+    <div class="intro-left">
+
+      <!-- Nom Prénom centré et calligraphié -->
+      <div class="profile-name" data-fr="Roberge Sven">
+        Roberge Sven
+      </div>
+
+      <p>
+        <span data-fr="Étudiant en informatique passionné par l’art de la résolution de problèmes complexes, je me spécialise dans la conception et le développement de modèles d’optimisation performants. Alliant rigueur algorithmique et créativité, je cherche à transformer des défis réels—logistique, planification, allocation de ressources—en solutions mathématiques élégantes et efficientes.">
+          Développeur passionné, je mets mes compétences en informatique au service de la création de solutions logicielles robustes et intelligentes. Spécialisé dans le développement d’outils d’optimisation, j’aime transformer des défis techniques—gestion de données, performance, scalabilité—en applications efficaces et élégantes. Curieux et rigoureux, j’aborde chaque projet comme une opportunité de combiner logique, code propre et innovation.
+        </span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projets" class="container">
+    <h2 data-fr="Mes projets :">Mes projets :</h2>
+    <div class="projects-grid">
+
+      <!-- Morpion IA -->
+      <div class="project-card">
+        <img src="img/Minimax.png" alt="Morpion IA" class="project-image" />
+        <h3 data-fr="Morpion IA" data-en="Tic-Tac-Toe AI">Morpion IA</h3>
+        <p data-fr="Jeu de morpion réalisé entièrement en Python avec un algorithme Minimax imbattable." 
+           data-en="Tic-tac-toe game built entirely in Python with an unbeatable Minimax algorithm.">
+          Jeu de morpion réalisé entièrement en Python avec un algorithme Minimax imbattable.
+        </p>
+        <div class="project-tech">
+          <span>Python</span>
+        </div>
+        <a class="project-btn" href="#" data-fr="Voir le projet →" data-en="View Project →">Voir le projet →</a>
+      </div>
+
+      <!-- Algorithme génétique -->
+      <div class="project-card">
+        <img src="img/Genetic.png" alt="Algorithme génétique" class="project-image" />
+        <h3 data-fr="Algorithme génétique" data-en="Genetic Algorithm">Algorithme génétique</h3>
+        <p data-fr="Développé sous Godot Engine, il trouve des itinéraires optimaux pour les livraisons entre entrepôts et points de vente." data-en="Built with Godot Engine, it finds optimal delivery routes between warehouses and retail outlets.">
+          Développé sous Godot Engine, il trouve des itinéraires optimaux pour les livraisons entre entrepôts et points de vente.
+        </p>
+        <div class="project-tech">
+          <span>Godot Engine</span>
+        </div>
+        <a class="project-btn" href="#" data-fr="Voir le projet →" data-en="View Project →">Voir le projet →</a>
+      </div>
+
+      <!-- Lem-in -->
+      <div class="project-card">
+        <img src="img/Lem_in.png" alt="Lem-in" class="project-image" />
+        <h3 data-fr="Lem-in" data-en="Lem-in">Lem-in</h3>
+        <p data-fr="Il s’agit de la résolution d’un problème d’optimisation de flux via l’algorithme d’Edmond–Karp, avec des fourmis devant emprunter divers chemins." 
+           data-en="This solves a flow optimization problem using the Edmond–Karp algorithm, with ants traversing multiple paths.">
+          Il s’agit de la résolution d’un problème d’optimisation de flux via l’algorithme d’Edmond–Karp, avec des fourmis devant emprunter divers chemins.
+        </p>
+        <div class="project-tech">
+          <span>Golang</span><span>Python</span>
+        </div>
+        <a class="project-btn" href="#" data-fr="Voir le projet →" data-en="View Project →">Voir le projet →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Compétences & Formation -->
+  <section id="skills-formation" class="container skills-formation-wrapper">
+    <!-- Skills -->
+    <div class="box">
+      <h2 data-fr="Mes skills">Mes Compétences</h2>
+      <ul class="skills-list">
+        <!-- Langages -->
+        <li class="skill-lang" data-fr="Python">Python</li>
+        <li class="skill-lang" data-fr="JavaScript">JavaScript</li>
+        <li class="skill-lang" data-fr="Node.js">Node.js</li>
+        <li class="skill-lang" data-fr="Golang">Golang</li>
+        <li class="skill-lang" data-fr="C++">C++</li>
+
+        <!-- Moteurs -->
+        <li class="skill-engine" data-fr="Godot Engine" data-en="Godot Engine">Godot Engine</li>
+
+      </ul>
+    </div>
+
+    <!-- Ma formation -->
+    <div class="box">
+      <h2 data-fr="Ma formation">Ma formation</h2>
+      <div class="timeline">
+        <div class="entry">
+          <h4 data-fr="Parcours Full Stack Développeur - Zone01" data-en="Full Stack Developer Track - Zone01">
+          Full Stack Développeur - Zone01
+          </h4>
+          <span>2024 – aujourd’hui</span>
+          <p data-fr="Formation intensive en développement web et mobile, de l’UI au backend." data-en="Intensive training in web and mobile development, from UI to backend.">
+            Formation P2P en développement web et mobile, de l’UI au backend.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container contact-section">
+    <h2 data-fr="Me contacter">Me contacter</h2>
+    <form action="RobergeSven@proton.me" method="POST">
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_replyto" value="" />
+
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+
+      <button type="submit" data-fr="Envoyer" data-en="Send">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container">
+    <p>&copy; <span id="year"></span> Roberge Sven - Tous droits réservés.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
